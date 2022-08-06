@@ -1,0 +1,238 @@
+
+
+img {
+    max-width: 100%;
+}
+
+
+
+/*================================================
+Flex CSS
+=================================================*/
+
+
+
+
+
+
+/*================================================
+Section Title CSS
+=================================================*/
+
+
+/*================================================
+Section Container CSS
+=================================================*/
+
+
+.section-container .section-picture picture {
+    display: block;
+}
+
+.section-container .section-picture picture source,
+.section-container .section-picture picture img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.section-container .section-content .section-subtitle {
+    display: inline-block;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.section-container .section-content .section-subtitle i {
+    /* background-color: rgba(45, 155, 234, 0.15); */
+    /* color: var(--primary-color); */
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-container .section-content .section-subtitle i::before {
+    font-size: 12px;
+}
+
+.section-container .section-content .section-heading {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+
+.section-container .section-content .section-description {
+    margin-bottom: 15px;
+}
+
+.section-container .section-content .section-description:last-child {
+    margin-bottom: 0;
+}
+
+.section-container .section-content .section-points {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.section-container .section-content .section-points li {
+    flex: 1 1 calc(50% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.section-container .section-content .section-points li i {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid var(--primary-color);
+    background-color: var(--primary-color-10); */
+    /* color: var(--primary-color); */
+    padding: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.section-container .section-content .btn {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/*================================================
+Site CSS
+=================================================*/
+
+.site-root {
+    width: 100%;
+    overflow: hidden;
+}
+
+.site-root.site-root-sidenav-popup-root--active {
+    height: 100vh;
+}
+
+.site-root.site-root-float-button--active::before {
+    content: '';
+    position: fixed;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 12;
+}
+
+
+
+/* Start tray CSS */
+
+.swiper-container.tray-carousel {
+    /* width: 100vw;
+  height: 100%;
+  margin-left: calc(var(--container-margin) * -1/2); */
+    position: relative;
+}
+
+.swiper-slide.tray-slide {
+    text-align: center;
+    font-size: 18px;
+    max-width: 220px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide.tray-slide img {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+/* End tray CSS */
+
+/*================================================
+Swiper buttons common CSS
+=================================================*/
+
+.swiper-button-next {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    background-color: #242733;
+    border-radius: 50%;
+    right: 5px;
+    outline: none;
+}
+
+.swiper-button-next::after {
+    color: #fff;
+    font-size: 14px;
+}
+
+.swiper-button-next.swiper-button-disabled {
+    display: none;
+}
+
+.swiper-button-next.invert-color {
+    background-color: #fff;
+}
+
+.swiper-button-next.invert-color::after {
+    color: #242733;
+}
+
+.swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 5px;
+    background-color: #242733;
+    border-radius: 50%;
+    outline: none;
+}
+
+.swiper-button-prev::after {
+    color: #fff;
+    font-size: 14px;
+}
+
+.swiper-button-prev.swiper-button-disabled {
+    display: none;
+}
+
+.swiper-button-prev.invert-color {
+    background-color: #fff;
+}
+
+.swiper-button-prev.invert-color::after {
+    color: #242733;
+}
+
+/**/
+

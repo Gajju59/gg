@@ -1,0 +1,607 @@
+/*================================================
+Site Main Content CSS
+=================================================*/
+
+
+/*================================================
+DVC + SMI Area CSS
+=================================================*/
+
+#dvc-section {
+    padding: 50px 0;
+    
+}
+
+/*================================================
+PDF ID Card Area CSS
+=================================================*/
+
+#smi-section {
+    padding: 50px 0;
+    background-color: #fafafa;
+}
+
+/*================================================
+Samples Area CSS
+=================================================*/
+
+#samples-section {
+    padding: 50px 0;
+    /* background: #242733; */
+    /* background-image: url(../../img/black-bg5.jpg); */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* DVC Swiper CSS */
+
+.swiper-container.tray-carousel.templates .swiper-slide {
+    max-width: 250px;
+    /* background-color: #242733; */
+}
+
+.swiper-container.tray-carousel.templates .carousel-slider-animate-opacity {
+    height: 100%
+}
+
+.swiper-container.tray-carousel.templates img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    -webkit-box-reflect: below 5px -webkit-linear-gradient(bottom, rgba(255, 0, 0, .1) 0%, transparent 32px, transparent 100%)
+}
+
+.swiper-container.tray-carousel.templates .slide-content {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    padding: 160px 16px 17px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    border-radius: 0 0 35px 35px;
+}
+
+.swiper-container.tray-carousel.templates .slide-content h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.1;
+    color: #fff;
+    text-align: center;
+}
+
+.swiper-container.tray-carousel.templates .slide-content p {
+    margin: 0;
+    opacity: .85;
+    font-size: 14px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+.swiper-container.tray-carousel.templates .slide-content .preview-demo-btn {
+    text-align: center;
+    padding: 6px;
+    margin-top: 20px;
+    opacity: 0.95;
+}
+
+.swiper-container.tray-carousel.templates .swiper-button-next {
+    right: 130px;
+}
+
+.swiper-container.tray-carousel.templates .swiper-button-prev {
+    left: 130px;
+}
+
+/* SMI Swiper CSS */
+
+.swiper-container.tray-carousel.smi-templates {
+    overflow: hidden;
+    margin-top: 90px;
+}
+
+.swiper-container.tray-carousel.smi-templates .swiper-slide {
+    max-width: 300px;
+    background-color: #242733;
+}
+
+.swiper-container.tray-carousel.smi-templates img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    -webkit-box-reflect: below 5px -webkit-linear-gradient(bottom, rgba(255, 0, 0, .1) 0%, transparent 32px, transparent 100%)
+}
+
+/*================================================
+Pricing Area CSS
+=================================================*/
+
+#pricing-section {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+#pricing-section.extra-mb {
+    margin-bottom: -480px;
+}
+
+/* Common across sections */
+
+#dvc-section .tray-container .section-title,
+#smi-section .tray-container .section-title {
+    margin-bottom: 10px;
+}
+
+#dvc-section .tray-container .section-title span .icon,
+#smi-section .tray-container .section-title span .icon {
+    margin-left: 0;
+}
+
+#dvc-section .tray-container .section-title h2,
+#smi-section .tray-container .section-title h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.tray-container {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -30px;
+}
+
+#dvc-section .tray-container .swiper-slide.tray-slide,
+#smi-section .tray-container .swiper-slide.tray-slide {
+    max-width: 210px;
+}
+
+/* /*================================================
+Responsive CSS
+=================================================*/
+
+@media only screen and (max-width: 1200px) {
+    .swiper-container.tray-carousel.templates .swiper-button-next {
+        right: 40px;
+    }
+    .swiper-container.tray-carousel.templates .swiper-button-prev {
+        left: 40px;
+    }
+    .one{
+        position: relative;
+        margin-left: 10%;
+        width: 100px;
+        
+        }
+        
+        .two{
+          position: relative;
+          margin-left: 10%;
+          background-image: linear-gradient(hsl(236, 57%, 28%),hsl(335, 87%, 51%));
+          width: 100px;
+          }
+
+           .section-title{
+            text-align: center;
+          } 
+
+          .temp{
+            font-size: 30px;
+          } 
+ 
+        
+}
+
+@media only screen and (max-width: 992px) {
+    .top-heading .top-heading-before {
+        font-size: 22px;
+    }
+    .top-heading .top-heading-main {
+        font-size: 30px;
+    }
+    .top-heading .top-heading-after {
+        font-size: 22px;
+    }
+    .plus-heading {
+        margin: 0 20px;
+        font-size: 40px;
+        margin-bottom: 18px;
+    }
+    #dvc-section .row {
+        flex-direction: column-reverse;
+    }
+    .swiper-container.tray-carousel.templates .swiper-button-next {
+        right: -80px;
+    }
+    .swiper-container.tray-carousel.templates .swiper-button-prev {
+        left: -80px;
+    }
+    .one{
+        position: relative;
+        margin-left: 10%;
+        width: 300px;
+        
+        }
+        
+        .two{
+          position: relative;
+          margin-left: 10%;
+          background-image: linear-gradient(hsl(236, 57%, 28%),hsl(335, 87%, 51%));
+          width: 300px;
+          }
+
+       
+          .section-title{
+            text-align: center;
+          } 
+
+          .temp{
+            font-size: 30px;
+          } 
+
+          
+}
+
+@media only screen and (max-width: 768px) {
+    .top-heading-container {
+        flex-direction: column;
+    }
+    #top-heading-section {
+        background-image: unset;
+        background-color: #ffffff;
+    }
+    #top-heading-section .container {
+        padding: 60px 0;
+    }
+    #dvc-section .tray-container .section-title h2,
+    #smi-section .tray-container .section-title h2 {
+        font-size: 20px;
+    }
+    #dvc-section .tray-container .swiper-slide.tray-slide,
+    #smi-section .tray-container .swiper-slide.tray-slide {
+        max-width: 180px;
+    }
+    .shape-img1 {
+        width: 80%;
+    }
+    .swiper-container.tray-carousel.templates .swiper-slide {
+        max-width: 180px;
+    }
+    .swiper-container.tray-carousel.templates .swiper-button-next {
+        right: 20px;
+        top: 380px;
+    }
+    .swiper-container.tray-carousel.templates .swiper-button-prev {
+        left: 20px;
+        top: 380px;
+    }
+    .swiper-container.tray-carousel.templates .slide-content h2 {
+        font-size: 20px;
+    }
+    .swiper-container.tray-carousel.templates .slide-content p {
+        font-size: 12px;
+    }
+    .swiper-container.tray-carousel.templates .slide-content .preview-demo-btn {
+        margin-top: 8px;
+    }
+    .swiper-container.tray-carousel.smi-templates {
+        overflow: initial;
+    }
+    .swiper-container.tray-carousel.smi-templates .swiper-slide {
+        max-width: 200px;
+    }
+    .swiper-container.tray-carousel.smi-templates .swiper-button-next {
+        top: 220px;
+        background-color: #fff;
+        color: #242733;
+    }
+    .swiper-container.tray-carousel.smi-templates .swiper-button-next::after {
+        color: #242733;
+    }
+    .swiper-container.tray-carousel.smi-templates .swiper-button-prev {
+        top: 220px;
+        background-color: #fff;
+        color: #242733;
+    }
+    .swiper-container.tray-carousel.smi-templates .swiper-button-prev::after {
+        color: #242733;
+    }
+    .one{
+        position: relative;
+        margin-left: 10%;
+        width: 300px;
+        
+        }
+        
+        .two{
+          position: relative;
+          margin-left: 10%;
+          background-image: linear-gradient(hsl(236, 57%, 28%),hsl(335, 87%, 51%));
+          width: 300px;
+          }
+
+          /* .section-title{
+            text-align: center;
+          } */ 
+
+          .temp{
+            font-size: 30px;
+          } 
+
+          
+}  
+
+
+/**/
+
+/*================================================
+Common Pricing Area CSS
+=================================================*/
+
+.single-pricing-table {
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.07), 0 10px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.07), 0 10px 10px rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    background-color: var(--primary-color);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 0;
+}
+
+.single-pricing-table .pricing-header {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+}
+
+.single-pricing-table .pricing-header .icon {
+    display: inline-block;
+    background-color: #ffabae;
+    color: #0e101b;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.single-pricing-table .pricing-header .icon i::before {
+    font-size: 30px;
+}
+
+/* .single-pricing-table .pricing-header span {
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 3px;
+} */
+
+.single-pricing-table .pricing-header h3 {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+.single-pricing-table .pricing-header h4 {
+    margin: 0;
+    margin-top: 5px;
+    color: var(--primary-color);
+}
+
+.single-pricing-table .pricing-features-list {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.single-pricing-table .pricing-features-list li {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.single-pricing-table .pricing-features-list li i {
+    background-color: #fb898d;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.single-pricing-table .pricing-features-list li i::before {
+    font-size: 9px;
+}
+
+.single-pricing-table::before {
+    z-index: -1;
+    background: var(--primary-color);
+    width: 60%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.single-pricing-table::after {
+    z-index: -1;
+    background: var(--primary-color);
+    width: 60%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.single-pricing-table .image-box img {
+    position: absolute;
+    max-width: 90%;
+    opacity: .09;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.single-pricing-table .image-box img:nth-child(1) {
+    top: 0;
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.single-pricing-table .image-box img:nth-child(2) {
+    bottom: 0;
+    left: 0;
+}
+
+.single-pricing-table:hover,
+.single-pricing-table.active {
+    background-image:linear-gradient(hsl(335, 87%, 51%),hsl(236, 57%, 28%));
+}
+
+.single-pricing-table:hover::before,
+.single-pricing-table:hover::after,
+.single-pricing-table.active::before,
+.single-pricing-table.active::after {
+    width: 0;
+}
+
+.single-pricing-table:hover .icon,
+.single-pricing-table.active .icon {
+    background-color: var(--secondary-color);
+}
+
+.single-pricing-table:hover .pricing-features-list li i,
+.single-pricing-table.active .pricing-features-list li i {
+    background-color: #393d4b;
+}
+
+.single-pricing-table:hover .view-plans-btn,
+.single-pricing-table.active .view-plans-btn {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: #0e101b;
+}
+
+.pricing-header .price-wrapper {
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.pricing-header .price-wrapper .value {
+    font-size: 54px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+}
+
+.pricing-header .p-table-large .price-wrapper .value {
+    font-size: 52px;
+}
+
+.pricing-header .price-wrapper .curency {
+    position: absolute;
+    top: -12px;
+    font-size: 28px;
+    font-weight: 500;
+    left: -18px;
+}
+
+.pricing-header .price-wrapper .time {
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+
+.more-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.more-price .price-wrapper {
+    line-height: 20px;
+}
+
+.more-price .price-wrapper .value {
+    font-size: 28px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.more-price .price-wrapper .value .curency {
+    font-size: 20px;
+    left: -15px;
+    top: -7px;
+}
+
+.more-price .price-wrapper .time {
+    font-size: 14px;
+}
+
+.price-wrapper.actual-price {
+    margin-top: -10px;
+    opacity: 0.6;
+}
+
+.price-wrapper.actual-price .curency {
+    font-size: 16px;
+    left: -12px;
+    top: -8px;
+}
+
+.price-wrapper.actual-price .value {
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+.price-wrapper.actual-price .time {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.more-price .price-wrapper .value.active-value {
+    font-size: 18px;
+    text-decoration: line-through;
+    margin-top: 8px;
+    opacity: 0.6;
+}
+
+.more-price .price-wrapper .value.active-value .curency {
+    font-size: 16px;
+    left: -12px;
+    top: -8px;
+}
